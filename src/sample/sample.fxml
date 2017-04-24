@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.effect.*?>
 <?import java.lang.*?>
@@ -14,4 +16,11 @@
    <padding>
       <Insets top="50.0" />
    </padding>
+   <children>
+      <Button fx:id="buttonSubmit" layoutX="128.0" layoutY="161.0" mnemonicParsing="false" onMouseClicked="#clickSubmit" style="-fx-background-color: red;" text="Kliknij mnie!" underline="true">
+         <font>
+            <Font name="Bradley Hand ITC" size="48.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
